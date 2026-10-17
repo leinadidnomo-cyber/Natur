@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:rgb(88, 198, 134);
+  color:aqua
+}
+body{
+  font-family: arial, sans-serif;
+  line-height: 1.6;
+  background: #0aa529;
+  color: #0ecf4ec7;
+  background-color: rgb(11, 208, 83);
+}
+header{
+  background: hsl(159, 83%, 39%);
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  background-image: url('nature.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+nav a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 15px;
+}
+main{
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+section{
+  margin-bottom: 20px;
+ background: #029950;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+h2{
+  color: #0f172a;
+  margin-bottom: 15px;
+}
+ul{
+  list-style-position: inside;
+}
+input, textarea{
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button{
+  background: #0f172a;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}button:hover{
+  background: #1e293b;
+}
+footer{
+  text-align: center;
+  padding: 20px;
+  background: #0f172a;
+  color: #fff;
+}
+#skills ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+}
+#skills li{
+  background: #0f172a;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.styled{
+  border-collapse:collapse;
+  width:100%;
+  text-align:center;
+
+}
+.styled th, .styled td {
+  border:1px solid #333;
+  padding:8px;
+
+}
+.styled th{
+  background-color:#007bff;
+  color:white;
+}
